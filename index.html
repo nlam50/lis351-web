@@ -1,0 +1,155 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Nia Lam</title>
+  </head>
+
+  <body>
+    <!-- =========================================================
+    STEP 2: Build the “top area” (site name + navigation) using simple HTML
+    ========================================================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="brand">Nia Lam<span class="dot">.</span></p>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="#featured">Recent Favorites</a></li>
+            <li><a href="#secondary">Goals</a></li>
+            <li><a href="#cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- =========================================================
+    STEP 3: Hero section + “Get Started button” as a link
+    ========================================================= -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>About Me</h1>
+        <p class="hero-subhead">Hi, I'm Nia! I'm a sophomore at UW-Madison, double majoring in Computer Science & Information Science with a Digital Studies certificate.</p>
+        <a class="btn btn-dark" href="#featured">Get Started</a>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    STEP 4: Features section (3 blocks) + featured content section
+    ========================================================= -->
+
+    <section class="features">
+      <div class="container">
+        <h2 class="features-title">My Interests</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <div class="icon" aria-hidden="true">🎨</div>
+            <h3>Art</h3>
+            <p>I love drawing, and usually do so with just pencil & paper.
+              I also indulge in watercolor painting, scrapbooking, and stamp carving!
+              My subjects tend to be people, which can range from attempts at croquis,
+              various stylizations, or realism.
+            </p>
+          </div>
+ 
+          <div class="feature">
+            <div class="icon" aria-hidden="true">🍜</div>
+            <h3>Food</h3>
+            <p>I've been learning how to cook now that I live off campus, and
+              have enjoyed trying new recipes, albeit not often and rather simple.
+              Dishes include Chinese tomato & egg, cacio e pepe, and miso udon (simple, but filling).
+              I also am just a huge foodie in general; I love trying new cuisines
+              and restaurants!
+            </p>
+          </div>
+ 
+          <div class="feature">
+            <div class="icon" aria-hidden="true">🎮</div>
+            <h3>Games</h3>
+            <p>I play a variety of games, including card games, mahjong,
+              mafia, Minecraft, and Nintendo games! I recently learned to play Cambio
+              and changed the rules to include two decks of cards, which is quite fun!
+              I finally bought Minecraft for myself and received a Switch as a gift
+              this year, both of which I'd love to play more given the time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- =========================================================
+    STEP 5: Two secondary content blocks + CTA section 
+    ========================================================= -->
+
+      <section class="featured" id="featured">
+        <div class="container">
+          <h2 class="section-title">Recent Favorites</h2>
+          <div class="featured-inner">
+            <img src="images/scuffed-pylon-shirt.jpeg" alt="DIY white t-shirt imitating Beabadoobee's Powerlines Tour merchandise." width="250">
+            <p>
+              My recent favorite is Beabadoobee's new album, Pylon! It's a gorgeous
+              album from start to finish, written with feelings of longing, confliction, and
+              confusion. I love the indie/rock sound; some of my favorite tracks are In Motion, Pylon,
+              Radio, Despite That, and Satellite. I actually recently DIY-ed a T-shirt roughly imitating
+              one of the pylon shirts for her Powerlines Tour. I also love the design of the album cover, the imagery with pylons,
+              and the overall aesthetics.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="secondary" id="secondary">
+      <div class="container secondary-grid">
+        <div class="card">
+          <div class="card-text">
+            <h3>College Goals</h3>
+            <p>One of my college goals is to study abroad! I'm not sure when or where yet though.</p>
+          </div>
+        </div>
+ 
+        <div class="card">
+          <div class="card-text">
+            <h3>Career Goals</h3>
+            <p>I hope to become a Software Engineer or a Product Designer, but I'm always exploring so who knows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container cta-inner">
+        <h2>Contact</h2>
+        <p>Here's my email if you have any inquiries!</p>
+        <a class="btn btn-outline" href="mailto:nlam5@wisc.edu">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    STEP 6: Footer 
+    ========================================================= -->
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <p>&copy; 2026 Nia Lam. All rights reserved.</p>
+        </div>
+        <nav class="footer-cols" aria-label="Footer">
+          <div class="footer-col">
+            <ul>
+              <li><a href="#featured">Recent Favorites</a></li>
+              <li><a href="#secondary">Goals</a></li>
+              <li><a href="#cta">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+  </body>
+</html>
